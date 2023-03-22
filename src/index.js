@@ -15,7 +15,6 @@ updateOutput();
 function followValue() {
 
    if (followStatus === true) {
-      console.log("if", followStatus)
       counterValue -= 1;
       dynamicValue.textContent = counterValue.toLocaleString('en-US');
       followBtn.style.background = "#EBD8FF";
