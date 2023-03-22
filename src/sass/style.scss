@@ -1,0 +1,107 @@
+body {
+   font-family: "Montserrat";
+}
+
+.follow-card {
+   display: flex;
+   flex-direction: column;
+   width: 380px;
+   height: 460px;
+   background: linear-gradient(114.99deg, #471ca9 -0.99%, #5736a3 54.28%, #4b2a99 78.99%);
+   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+   border-radius: 20px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.logo {
+   background-image: url(../images/logo.png);
+   position: relative;
+   top: 20px;
+   left: 20px;
+   width: 75px;
+   height: 22px;
+}
+
+.picture {
+   background-image: url(../images/picture.png);
+   width: 310px;
+   height: 170px;
+   background-repeat: no-repeat;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.bg-line {
+   height: 8px;
+   margin-top: 20px;
+   background-color: #ebd8ff;
+   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #ae7be3,
+      inset 0px 3.43693px 2.5777px #fbf8ff;
+
+   &__user-ring {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: -35px;
+      width: 80px;
+      height: 80px;
+      background-color: #5935ac;
+      overflow: hidden;
+      object-fit: cover;
+      box-shadow: 0px 4.39163px 4.39163px -4px rgba(0, 0, 0, 0.06), 0px 0px 10px 2px #ae7be3, 0px 0px 0px 8px #fbf8ff;
+      border-radius: 50%;
+   }
+   &__user-img {
+      background-image: url(../images/Hansel.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80px;
+      height: 80px;
+   }
+}
+
+.tweets {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #ebd8ff;
+   margin-top: 60px;
+   margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.followers {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #ebd8ff;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 25px;
+}
+
+.button {
+   width: 196px;
+   height: 50px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   cursor: pointer;
+   border: transparent;
+   background-color: #ebd8ff;
+   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   &:hover {
+      border: 1px solid #5736a3;
+   }
+}

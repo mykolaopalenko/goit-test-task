@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>GoIt test task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./index.js" defer></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="follow-card">
+      <div class="logo"></div>
+      <div class="picture"></div>
+      <div class="bg-line">
+        <div class="bg-line__user-ring">
+          <div class="bg-line__user-img"></div>
+        </div>
+      </div>
+      <p class="tweets">777 tweets</p>
+      <p class="followers"><span id="value">100,500</span> Followers</p>
+      <button class="button" type="button" data-action="follow">Follow</button>
+    </div>
   </body>
 </html>
